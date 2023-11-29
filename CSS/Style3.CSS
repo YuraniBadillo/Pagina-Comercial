@@ -1,0 +1,346 @@
+body{
+    background: white;
+    border: 50px;
+    border-top: 10px;
+    border-style: solid;
+    border-color: #FFC436;
+    
+
+}
+.encabezado{
+    background: #FFC436;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+.inicio{
+    display: inline-block;
+    background: #A6FF96;
+    color: black;
+    padding: 10px 30px  ;
+    padding-bottom: 30px;
+    text-decoration: none;
+    border-radius: 70%;
+    
+   
+}
+.beneficios{
+    display: inline-block;
+    background: #FFC436;
+    color: black;
+    padding: 10px 30px  ;
+    padding-bottom: 30px;
+    text-decoration: none;
+    border-radius: 70%;
+    
+    
+}
+.productos{
+    display: inline-block;
+    background: red;
+    color: black;
+    padding: 10px 30px  ;
+    padding-bottom: 30px;
+    text-decoration: none;
+    border-radius: 70%;
+    border-style: groove;
+    border-color: black;
+}
+.descripcion{
+    display: inline-block;
+    background: rgb(69, 216, 241);
+    color: rgb(0, 0, 0);
+    padding: 10px 30px  ;
+    padding-bottom: 30px;
+    text-decoration: none;
+    border-radius: 70%;
+    
+}
+.login{
+    display: inline-block;
+    background:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 30px  ;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-radius: 70%;
+    margin-top: 10px;
+    margin-left: 20PX;
+    text-align: center;
+
+}
+.inicio:hover{
+    background: #b8cfb4;
+}
+.beneficios:hover{
+    background: #d6bf89;
+}
+.productos:hover{
+    background:rgb(196, 127, 127) ;
+}
+.descripcion:hover{
+    background: rgb(140, 197, 207);
+}
+
+.busqueda{
+    display: inline-block;
+    background:red;
+    color: black;
+    text-decoration: none;
+    padding-right: 600px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 100px;
+    border-style: groove;
+    border-color: azure;
+   
+}
+.login:hover{
+    background: #FF6969;
+}
+
+nav{
+    background: red;
+    
+}
+.texto{
+    background: #5CD2E6;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: groove;
+    border-color: black;
+
+}
+
+.referenciasA{
+    background: white;
+    color: #5CD2E6;
+    padding: 30px 100px 30px 100px;
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    font-size: 50px;
+    border-style: groove;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 50px;
+    text-align: center;   
+
+}
+
+.referenciasB{
+    background: white;
+    color: #5CD2E6;
+    padding: 30px 100px 30px 100px;
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    font-size: 50px;
+    border-style: groove;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 50px;
+    text-align: center; 
+    
+       
+}
+.referenciasC{
+    background: white;
+    color: #5CD2E6;
+    padding: 30px 100px 30px 100px;
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 20px;
+    font-size: 50px;
+    border-style: groove;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 50px;
+    text-align: center; 
+
+}
+
+.seccion{
+    display: inline-flex;
+}
+
+.fin{
+    background: black;
+    padding: 10px;
+    
+}
+.elaborado{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media all and (min-width: 480px){
+    nav{
+        background-color: #13cc2c;
+        float: left;
+    }
+    .productos{
+        background: #13cc2c;
+    }
+    .busqueda{
+        background-color: #29ADB2;
+        width: 1px;
+        padding-right: 100px;
+    }
+    .login{
+        background-color: #d6bf89;
+    }
+      
+    .texto{
+        background-color: #6280e4;
+        float: left;
+        padding: 150px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .referenciasA{
+        margin: 10px;
+        padding: 30px;
+        font-size: 20px;
+    }
+    .referenciasB{
+        margin: 10px;
+        padding: 30px;
+        font-size: 20px;
+    }
+    .referenciasC{
+        margin: 10px;
+        margin-left: 90px;
+        padding: 30px;
+        font-size: 20px;
+    }
+    
+    .fin{
+        background-color: #6c63c2;
+     }
+
+    
+}
+@media screen and (min-width: 768px){
+    nav{
+        background-color: #13cc2c;
+        float: left;
+    }
+    .productos{
+        background: #13cc2c;
+    }
+    .busqueda{
+        background-color: #29ADB2;
+        width: 1px;
+        padding-right: 400px;
+    }
+    .login{
+        background-color: #d6bf89;
+    }
+      
+    .texto{
+        background-color: #e462d9;
+        float: left;
+        padding: 250px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .referenciasA{
+        margin: 20px;
+        padding: 60px;
+        font-size: 30px;
+    }
+    .referenciasB{
+        margin: 20px;
+        padding: 60px;
+        font-size: 30px;
+    }
+    .referenciasC{
+        margin: 20px;
+        margin-left: 150px;
+        padding: 70px;
+        font-size: 30px;
+    }
+    
+    .fin{
+        background-color: #d66f0f;
+     }
+}
+@media screen and (min-width: 1024px){
+   
+    nav{
+        background-color: #13cc2c;
+        float: left;
+    }
+    .productos{
+        background: #13cc2c;
+    }
+    .busqueda{
+        background-color: #29ADB2;
+        width: 1px;
+        padding-right: 500px;
+    }
+    .login{
+        background-color: #d6bf89;
+    }
+      
+    .texto{
+        background-color: #78e462;
+        float: left;
+        padding: 400px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .referenciasA{
+        margin: 20px;
+        padding: 80px;
+        font-size: 30px;
+    }
+    .referenciasB{
+        margin: 20px;
+        padding: 80px;
+        font-size: 30px;
+    }
+    .referenciasC{
+        margin: 20px;
+        margin-left: 150px;
+        padding: 100px;
+        font-size: 30px;
+    }
+    
+    .fin{
+        background-color: #f00a30;
+     }
+
+
+}

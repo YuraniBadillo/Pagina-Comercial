@@ -1,0 +1,270 @@
+body{
+    background: white;
+    border: 50px;
+    border-top: 10px;
+    border-style: solid;
+    border-color:#D67BFF;
+    
+
+}
+.encabezado{
+    background: #D67BFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+
+.inicio{
+    display: inline-block;
+    background: #A6FF96;
+    color: black;
+    padding: 10px 30px  ;
+    padding-bottom: 30px;
+    text-decoration: none;
+    border-radius: 70%;
+   
+}
+.beneficios{
+    display: inline-block;
+    background: #FFC436;
+    color: black;
+    padding: 10px 30px  ;
+    padding-bottom: 30px;
+    text-decoration: none;
+    border-radius: 70%;
+    border-style: groove;
+    border-color: black;
+}
+.productos{
+    display: inline-block;
+    background: red;
+    color: black;
+    padding: 10px 30px  ;
+    padding-bottom: 30px;
+    text-decoration: none;
+    border-radius: 70%;
+}
+.descripcion{
+    display: inline-block;
+    background: rgb(69, 216, 241);
+    color: rgb(0, 0, 0);
+    padding: 10px 30px  ;
+    padding-bottom: 30px;
+    text-decoration: none;
+    border-radius: 70%;
+}
+.login{
+    display: inline-block;
+    background:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 30px  ;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-radius: 70%;
+    margin-top: 10px;
+    margin-left: 20PX;
+    text-align: center;
+
+}
+.inicio:hover{
+    background: #b8cfb4;
+}
+.beneficios:hover{
+    background: #d6bf89;
+}
+.productos:hover{
+    background:rgb(196, 127, 127) ;
+}
+.descripcion:hover{
+    background: rgb(140, 197, 207);
+}
+.login:hover{
+    background: #FF6969;
+}
+
+nav{
+    background: #FFC436;
+}
+.busqueda{
+
+    background:#FFC436;
+    text-decoration: none;
+    padding-right: 600px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 100px;
+    border-style: groove;
+    border-color: azure;
+}
+
+#beneficios{
+ background: #337CCF;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ border-style: groove;
+ border-color: black;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+.texto{
+    background:#5CD2E6;
+    color: black;
+    padding: 100px;
+    padding-right: 150px;
+    width: 25%;
+    margin: 10px 20px 50px 0px;
+    border-radius: 20px;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.video{
+    background: transparent;
+    padding: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px 20px 50px 50px;
+    border-radius: 20px;
+     
+}
+.seccion{
+    display: flex;
+    margin: 20px;
+    
+}
+.fin{
+    background: black;
+    padding: 10px;
+    
+}
+.elaborado{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media all and (min-width: 480px){
+    nav{
+        background-color: #cc1313;
+        float: left;
+    }
+    .beneficios{
+        background: #cc1313;
+    }
+    .busqueda{
+        background-color: #29ADB2;
+        width: 1px;
+        padding-right: 100px;
+    }
+    .login{
+        background-color: #d6bf89;
+    }
+    #beneficios{
+        background-color: #2825bb;
+        margin-top: 100px;
+
+    }
+     
+  
+    .texto{
+        background-color: #2ebe21;
+        float: left;
+        margin-top: 50px;
+        margin-left: 10px;
+        padding: 50px;
+        font-size: 10px;
+    }
+    .video{
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .elaborado{
+        background-color: #81db19;
+     }
+
+    
+}
+@media screen and (min-width: 768px){
+    nav{
+        background-color: #cc1313;
+        float: left;
+    }
+    .beneficios{
+        background: #cc1313;
+    }
+    .busqueda{
+        background-color: #29ADB2;
+        width: 1px;
+        padding-right: 300px;
+    }
+    .login{
+        background-color: #d6bf89;
+    }
+    #beneficios{
+        background-color: #2825bb;
+        margin-top: 100px;
+
+    }
+     
+  
+    .texto{
+        background-color: #e015be;
+        float: left;
+        margin-top: 50px;
+        margin-left: 10px;
+        padding: 30px;
+        font-size: 20px;
+    }
+    
+    .fin{
+        background-color: #1ea77e;
+     }
+}
+@media screen and (min-width: 1024px){
+   
+    nav{
+        background-color: #cc1313;
+        float: left;
+    }
+    .beneficios{
+        background: #cc1313;
+    }
+    .busqueda{
+        background-color: #29ADB2;
+        width: 1px;
+        padding-right: 500px;
+    }
+    .login{
+        background-color: #d6bf89;
+    }
+    #beneficios{
+        background-color: #2825bb;
+        margin-top: 100px;
+
+    }
+     
+  
+    .texto{
+        background-color: #DC8686;
+        float: left;
+        margin-top: 50px;
+        margin-left: 10px;
+        padding: 50px;
+        font-size: 30px;
+    }
+    
+    .elaborado{
+        background-color: #201ea7;
+     }
+
+
+}
+
+
